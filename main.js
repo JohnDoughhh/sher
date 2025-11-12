@@ -8,4 +8,4 @@ client.setChannel("sher");
 client.on("hi", (msg) => {
   client.sendArray([{ m: "userset", set: { name: "[BOT] sher", color: "#adbaff" } }]);
   client.sendArray([{ m: "a", message: "``sher bot is online!``" }]);
-}
+});
